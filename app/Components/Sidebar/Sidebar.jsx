@@ -24,9 +24,12 @@ function Sidebar() {
   };
 
   const router = useRouter();
-  const pathname = usePathname();
+  const pathname = usePathname();git
 
-  const handleClick = (link: string) => {
+  /**
+   * @param {string} link
+   */
+  const handleClick = (link) => {
     router.push(link);
   };
 
